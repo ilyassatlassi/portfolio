@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        background: #F4F5F7;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar a{
+    display: inline-block;
+}
+
+.logo{
+    margin: 20%;
+    margin-top: 12px;
+    display: flex;
+    left: calc(50% - 375px/2);
+    align-items: center;
+    flex-direction: row;
+    width: 76px;
+    height: 20px;
+    text-decoration: none;
+    color: #6070FF;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.navbar .menu{
+
+    margin-top: 12px;
+    margin-right: 30%;
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-decoration: none;
+    color:#344563;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.toolbar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 2px;
+    background: unset;
+    border-radius: 8%;
+}
+@media screen and(max-width:650px ){
+    .navbar  .menu{
+        display: none;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 76px;
+        height: 20px;
+        text-decoration: none;
+        color: #6070FF;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+}
+
