@@ -38,7 +38,7 @@ section {
 
 .main {
   width: 100%;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   background: url(images/background.png) no-repeat;
@@ -82,7 +82,144 @@ section {
 
 .social-icons a {
   color: #344563;
-  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.project-card {
+    width: 327px;
+    height: 552px;
+    box-shadow: 0 5px 25px rgba(1 1 1/ 15%);
+    padding: 12px 20px;
+}
+
+.project-image img {
+    width: 100%;
+    height: 220px;
+    border-radius: 8px;
+}
+
+.project-info h1{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.project-info p {
+  padding-bottom: 12px;
+  color: #344563;
+}
+
+.project-details {
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 12px;
+    color: #7A869A;
+}
+.project-details li {
+    padding-right: 10px;
+
+}
+.project-details span {
+    color: #344563;
+    
+}
+
+.language {
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 12px;
+    border-spacing: 20px;
+}
+
+.language li {
+  padding: 4px 12px;
+  background: #EBEBFF;
+  border-radius: 8px;
+  border-spacing: 10px;
+
+}
+
+.main-btn {
+    padding: 12px;
+    color: #396DF2;
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    border: 1px solid #6070FF;
+    border-radius: 8px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+
+.about-button {
+    padding: 12px;
+    color: #396DF2;
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    border: 1px solid #6070FF;
+    border-radius: 8px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+}
+
+.about {
+  padding: 24px;
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.about h1{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  padding-bottom: 12px;
+}
+
+.about p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  padding-bottom: 12px;
+}
+
+.about .main-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  text-decoration: none;
+  margin-top: 12px;
+}
+
+.about .social-icons {
+  display: flex;
+  margin-top: 12px;
+  list-style-type: none;
+  padding-bottom: 12px;
+  }
+  
+.about .social-icons a {
+  color: #344563;
+  padding-right: 12px;
 }
 
 @media (max-width: 641px) {
@@ -92,6 +229,6 @@ section {
   }
 
   section {
-    padding: 80px 20px;
+    padding: 16px;
   }
 }

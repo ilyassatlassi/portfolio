@@ -11,6 +11,19 @@
 - linter
 
 
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+All you need VScode compiler or a compiler of your choice.
+
+### Setup
+
+You will need to clone the url from the source repository and run the following command git clone https://github.com/ilyassatlassi/hello_microverse
+
+
 ## Author
 
 👤 ilyass atlassi
