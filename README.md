@@ -1,4 +1,4 @@
-# Portfolio for mobile by using a simple html&css page for descrbe my self and to find my social media link
+# Portfolio for mobile by using a simple html&css page for descrbe my self and sharing my social media link
 
 > Description the project.
 
@@ -9,6 +9,20 @@
 - no Frameworks
 - Flexbox
 - linter
+
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+All you need VScode compiler or a compiler of your choice.
+
+### Setup
+
+You will need to clone the url from the source repository and run the following command 
+git clone https://github.com/ilyassatlassi/portfolio_setup_mobile.git
 
 
 ## Author
