@@ -36,8 +36,8 @@ header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #fff;
   background: url(images/background.png) no-repeat;
+  background-color: #fff;
   background-position: center;
   background-size: cover;
   border-bottom-left-radius: 100px;
@@ -89,10 +89,6 @@ p {
   color: #7f8cff;
 }
 
-.main ul li {
-  list-style-type: none;
-}
-
 .social-icons {
   display: flex;
   align-items: center;
@@ -127,6 +123,12 @@ p {
 .project-title {
   color: #172b4d;
   margin-top: 12px;
+}
+
+#title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
 }
 
 .project-info {
@@ -202,7 +204,7 @@ p {
   text-decoration: none;
   font-size: 1.1em;
   font-weight: 600;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   border-radius: 15px;
   margin-bottom: 40px;
@@ -218,7 +220,7 @@ p {
 
 .language li {
   padding: 4px 12px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   border-spacing: 10px;
 }
@@ -237,7 +239,6 @@ p {
     margin-bottom: 40px;
     transition: 0.7s ease;
 } */
-
 
 /* .about-button {
   padding: 12px;
@@ -326,10 +327,6 @@ h4 {
 
 img {
   width: 100%;
-}
-
-a {
-  text-decoration: none;
 }
 
 hr {

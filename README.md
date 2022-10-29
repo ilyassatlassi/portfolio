@@ -21,7 +21,8 @@ All you need VScode compiler or a compiler of your choice.
 
 ### Setup
 
-You will need to clone the url from the source repository and run the following command git clone https://github.com/ilyassatlassi/hello_microverse
+You will need to clone the url from the source repository and run the following command 
+git clone https://github.com/ilyassatlassi/portfolio_setup_mobile.git
 
 
 ## Author
