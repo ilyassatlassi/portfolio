@@ -179,8 +179,8 @@ p {
 
 .tools {
   display: flex;
-  gap: 10px;
   align-items: center;
+  gap: 20px;
   margin-top: 12px;
   list-style: none;
   padding: 0;
@@ -188,6 +188,8 @@ p {
 }
 
 #lang {
+  /* float: left;
+  margin-right: 12px; */
   background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
@@ -310,4 +312,46 @@ hr {
   background-color: #dfe1e6;
   border: none;
   height: 1px;
+}
+
+.contact {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 779px;
+  left: 0px;
+  top: 5410px;
+  background-color: #6070ff;
+
+}
+
+.contact h2{
+  color: #fff;
+  align-items: center;
+  text-align: center;
+}
+
+.contact p {
+  color: #ebebff;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+}
+.contact form {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.contact input {
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+}
+
+.contact textarea {
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+}
+
+.contact .button {
+
 }
