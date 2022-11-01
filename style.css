@@ -318,18 +318,23 @@ hr {
   display: flex;
   position: absolute;
   width: 100%;
+  margin-top: 113px;
   height: 779px;
-  top: 5410px;
-  background-color: #6070ff;
+  background: url(images/Contact.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 100px;
 }
 
 .contact h2 {
+  margin-top: 103px;
   color: #fff;
   align-items: center;
   text-align: center;
 }
 
 .contact p {
+  margin-top: 12px;
   color: #ebebff;
   font-style: normal;
   line-height: 28px;
@@ -337,6 +342,7 @@ hr {
 }
 
 .contact form {
+  margin-top: 40px;
   display: grid;
   grid-template-columns: auto;
 }
