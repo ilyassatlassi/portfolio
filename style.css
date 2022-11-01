@@ -343,15 +343,41 @@ hr {
 }
 
 .contact input {
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8cf;
   border-radius: 8px;
+  padding: 16px;
 }
 
 .contact textarea {
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8cf;
   border-radius: 8px;
+  padding: 16px;
 }
 
 .contact .button {
+  Padding: 12px, 16px, 12px, 16px;
+  width: 140px;
+  height: 48px;
+  color: #6070ff;
+  background: #fff;
+  border-radius: 8px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.contact input::placeholder {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+.contact #text ::placeholder {
+  color: #b3bac5;
 
 }
