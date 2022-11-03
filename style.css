@@ -244,7 +244,7 @@ p {
   border-top-right-radius: 100px;
 }
 
-.container {
+.about-cont {
   display: flex;
   flex-direction: column;
   padding: 12px 24px 0 24px;
@@ -442,6 +442,10 @@ hr {
     margin-left: 260px;
   }
 
+  .project {
+    background-color: #e5e5e5;
+  }
+
   .project-card{
     margin-left: 142px;
     margin-right: 142px;
@@ -449,6 +453,21 @@ hr {
     grid-template-columns: repeat(2,1fr);
     grid-gap: 46px ;
   }
+
+  .about {
+    background-color: #fff;
+    border-top-right-radius: 100px ;
+    margin-top: 142px;
+  }
+
+  .about-cont {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 10px;
+  }
+   .about-my {
+    grid-column: 1/2 ;
+   }
 
 
 
