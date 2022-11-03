@@ -105,7 +105,7 @@ p {
   list-style: none;
   gap: 20px;
   padding: 0;
-  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .project {
@@ -385,4 +385,57 @@ hr {
 
 .contact #text ::placeholder {
   color: #b3bac5;
+}
+
+@media(min-width: 768px) {
+  .header {
+    display: flex;
+    width: 70px;
+    
+    z-index: 999;
+    background-color: #fff;
+  }
+
+  .logo {
+    margin-left: 155px;
+    margin-top: 25px;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 800px;
+    margin-right: 154px;
+    margin-top: 25px;
+  }
+
+  .menu a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    margin-right: 32px;
+  }
+
+  .main {
+    position: static;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/desktop-backg.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 100px;
+  }
+  .container {
+    margin-right: 260px;
+    margin-left: 260px;
+  }
+
+
 }
