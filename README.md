@@ -34,8 +34,11 @@ git clone https://github.com/ilyassatlassi/portfolio_setup_mobile.git
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ilyassatlassi/)
 
 
-
 ## 🤝 Contributing
+
+👤 Jitender Kumar (JK)
+
+- **GitHub**: [@ohyajk](https://github.com/ohyajk)
 
 Contributions, issues, and feature requests are welcome!
 
