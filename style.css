@@ -316,17 +316,16 @@ hr {
 }
 
 .contact {
-  display: flex;
-  position: absolute;
-  width: 100%;
-  margin-top: 113px;
-  height: 779px;
-  background-image: url(images/background.png) no-repeat;
+  background-image: url(images/Contact.png);
   background-repeat: no-repeat;
-  background-position: initial;
-  background-size: cover;
-  /* background-color: #6070FF; */
+  background-size: contain;
+  background-position: right;
+  padding: 100px 24px 40px 24px;
+  text-align: center;
+  background-color: #6070ff;
   border-top-left-radius: 100px;
+  padding-top: 50px;
+  margin-top: 50px;
 }
 
 .contact h2 {
