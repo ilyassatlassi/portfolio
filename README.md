@@ -1,4 +1,4 @@
-# Portfolio for mobile and desktop vervion by using a simple html&css page for descrbe my self and to find my social media link
+# Portfolio for mobile by using a simple html&css page for descrbe my self and to find my social media link
 
 > Description the project.
 
