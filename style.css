@@ -32,7 +32,6 @@ nav {
 .logo a {
   text-decoration: none;
   color: #6070ff;
-  text-transform: uppercase;
   font-weight: 700;
   font-size: 1.8em;
 }
@@ -348,7 +347,7 @@ hr {
 }
 
 .contact form {
-  margin-top: 40px;
+  /* margin-top: 40px; */
   display: grid;
   grid-template-columns: auto;
 }
@@ -394,17 +393,16 @@ hr {
   .toolbar {
     display: none;
   }
-  
+
   .header {
     background-color: white;
     padding: 30px 10%;
     display: flex;
     justify-content: flex-end;
   }
-  
+
   .logo {
     margin-right: auto;
-
   }
 
   .menu a {
@@ -430,6 +428,23 @@ hr {
     margin-bottom: 20px;
     border-bottom-left-radius: 10%;
   }
+
+  .title h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+
   .info p {
     font-style: normal;
     font-weight: 400;
@@ -510,17 +525,12 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     position: relative;
-    top: 0px;
     width: 100%;
     gap: 10px;
   }
 
-  /* .contact h2 {
-    padding-left: 320px;
-    padding-right: 320px;
-  } */
-  
   .contact p {
     width: 569px;
     height: 102px;
@@ -529,7 +539,6 @@ hr {
     font-size: 20px;
     line-height: 28px;
     color: #ebebff;
-    justify-items: center;
   }
 
   .contact form {
@@ -543,8 +552,6 @@ hr {
     padding: 16px;
     height: 48px;
     width: 447px;
-    left: 0px;
-    top: 0px;
   }
 
   .contact textarea {
@@ -553,10 +560,8 @@ hr {
     padding: 16px;
     height: 170px;
     width: 447px;
-    left: 0px;
-    top: 0px;
-    border-radius: 2px;
   }
+
   .contact .button-contact {
     font-weight: 500;
     font-size: 17px;
@@ -578,7 +583,7 @@ hr {
 }
 
 @media (max-width: 768px) {
-  .menu-items{
+  .menu-items {
     display: none;
   }
 }
