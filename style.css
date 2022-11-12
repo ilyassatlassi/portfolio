@@ -226,6 +226,12 @@ p {
   transition: 0.7s ease;
 }
 
+.btn:hover {
+  background: #6070ff;
+  color: #fff;
+  transition: all 0.6s ease-out;
+}
+
 .language {
   list-style-type: none;
   display: flex;
