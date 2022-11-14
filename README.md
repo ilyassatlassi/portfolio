@@ -1,4 +1,7 @@
-# Portfolio for mobile by using a simple html&css page for descrbe my self and sharing my social media link
+[](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Designing a Responsive Portfolio Using HTML&CSS
+
 
 > Description the project.
 
@@ -10,6 +13,9 @@
 - Flexbox
 - linter
 
+## Link to online version of my portfolio
+
+https://ilyassatlassi.github.io/portfolio/
 
 ## Getting Started
 
