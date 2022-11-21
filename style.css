@@ -36,6 +36,14 @@ nav {
   font-size: 1.8em;
 }
 
+.menu-items li {
+  display: contents;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+}
+
 .toolbar {
   border: none;
   background-color: #fff;
