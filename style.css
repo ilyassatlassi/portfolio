@@ -430,6 +430,7 @@ hr {
     line-height: 20px;
     color: #344563;
     margin-right: 32px;
+    text-decoration: none;
   }
 
   .menu-items {
@@ -602,4 +603,62 @@ hr {
   .menu-items {
     display: none;
   }
+  .menu-items.active{
+    position: fixed;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    background: #6070ff;
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(10px);
+    z-index: 2;
+    padding: 106px 20px;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+
+  /* .links{
+    display: flex;
+  } */
+
+  .links{
+    display: flex;
+    height: 24px;
+    width: 251px;
+    left: 0px;
+    top: 8px;
+    border-radius: nullpx;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    text-decoration-line: none;
+    margin-bottom: 40px;
+  }
+  
+  .delete {
+    position: absolute;
+  }
+
+  .delete.active{
+    width: 14px;
+    height: 14px;
+    right: 37px;
+    top: 60px;
+    position: absolute;
+    background-image: url(images/Icon.png); ;
+    background-color: #6070ff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+  }
+  /* .delete img {
+    border: 2px solid #67798E;
+    left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+  } */
 }

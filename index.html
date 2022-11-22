@@ -16,13 +16,16 @@
       <a href="#index.html">My logo</a>
     </div>
     <nav class="menu">
-      <div class="menu-items">
-        <ul class="side-nav">
-          <li><a href="" class ="links"></a>Portfolio</li>
-          <li><a href="" class ="links"></a>About</li>
-          <li><a href="" class ="links"></a>Contact</li>
+      <div class="menu-items ">
+        <ul>
+          <li><a href="#portfolio" class ="links">Portfolio</a></li>
+          <li><a href="#About" class ="links">About</a></li>
+          <li><a href="#contact" class ="links">Contact</a></li>
+          <button class="delete">
+          </button>
         </ul>
       </div>
+      
       <button class="toolbar">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon-menu" width="44" height="44" viewBox="0 0 24 24"
           stroke-width="1.5" stroke="#6070FF" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -80,7 +83,7 @@
     </div>
   </section>
 
-  <section class="project">
+  <section class="project" id="portfolio">
     <div class="project-card">
       <div class="project-image">
         <img src="images/first_pro.png" alt="project background image" />
@@ -235,7 +238,7 @@
   </section>
 
 
-  <section class="about">
+  <section class="about" id="About">
     <div class="about-cont">
       <div class="about-my">
       <div class="title-about">
@@ -325,7 +328,7 @@
 
   <!-- Contact Me-->
 
-  <section class="contact">
+  <section class="contact" id="contact">
     <div class="container">
         <h2>
           Contact Me
@@ -342,6 +345,7 @@
     </form>
     </div>
   </section>
+  <script src="script/main.js"></script>
 </body>
 
 </html>
