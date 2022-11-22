@@ -603,7 +603,8 @@ hr {
   .menu-items {
     display: none;
   }
-  .menu-items.active{
+
+  .menu-items.active {
     position: fixed;
     inset: 0;
     display: flex;
@@ -617,15 +618,10 @@ hr {
     font-size: 30px;
   }
 
-  /* .links{
-    display: flex;
-  } */
-
-  .links{
+  .links {
     display: flex;
     height: 24px;
     width: 251px;
-    left: 0px;
     top: 8px;
     border-radius: nullpx;
     font-weight: 600;
@@ -635,18 +631,18 @@ hr {
     text-decoration-line: none;
     margin-bottom: 40px;
   }
-  
+
   .delete {
     position: absolute;
   }
 
-  .delete.active{
+  .delete.active {
     width: 14px;
     height: 14px;
     right: 37px;
     top: 60px;
     position: absolute;
-    background-image: url(images/Icon.png); ;
+    background-image: url(images/Icon.png);
     background-color: #6070ff;
     background-repeat: no-repeat;
     background-position: center;
@@ -654,11 +650,4 @@ hr {
     border: none;
     cursor: pointer;
   }
-  /* .delete img {
-    border: 2px solid #67798E;
-    left: 25%;
-right: 25%;
-top: 25%;
-bottom: 25%;
-  } */
 }
