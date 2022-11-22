@@ -1,25 +1,23 @@
-const hamburger = document.querySector('.toolbar');
+// toggle Menu
+const hamburger = document.querySelector('.toolbar');
 const cancel = document.querySelector('.delete');
 const links = document.querySelector('.links');
 const menu = document.querySelector('.menu-items');
 
-humburger.addEventListener('click', () => {
+hamburger.addEventListener('click', () => {
   menu.classList.toggle('active');
   links.classList.toggle('active');
   cancel.classList.toggle('active');
 });
 
-document.querySelectorA
-il('.links').forEach((n) =>
-n.addEventListener('click',() => {
+document.querySelectorAll('.links').forEach((n) => n.addEventListener('click', () => {
   menu.classList.toggle('active');
   links.classList.toggle('active');
   cancel.classList.toggle('active');
-  }));
-  
- cancel.addEventListener('click', () => {
-   menu.classList.toggle('active');
-   links.classList.toggle('active');
-   cancel.classList.toggle('active');
-  });
-  
+}));
+
+cancel.addEventListener('click', () => {
+  menu.classList.toggle('active');
+  links.classList.toggle('active');
+  cancel.classList.toggle('active');
+});
