@@ -611,11 +611,12 @@ hr {
     flex-direction: column;
     background: #6070ff;
     mix-blend-mode: multiply;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
     z-index: 2;
     padding: 106px 20px;
     font-weight: bolder;
     font-size: 30px;
+
   }
 
   .links {
