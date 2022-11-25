@@ -16,13 +16,16 @@
       <a href="#index.html">My logo</a>
     </div>
     <nav class="menu">
-      <div class="menu-items">
+      <div class="menu-items ">
         <ul>
-          <il><a href=""></a>Portfolio</il>
-          <il><a href=""></a>About</il>
-          <il><a href=""></a>Contact</il>
+          <li><a href="#portfolio" class ="links">Portfolio</a></li>
+          <li><a href="#About" class ="links">About</a></li>
+          <li><a href="#contact" class ="links">Contact</a></li>
+          <button class="delete">
+          </button>
         </ul>
       </div>
+      
       <button class="toolbar">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon-menu" width="44" height="44" viewBox="0 0 24 24"
           stroke-width="1.5" stroke="#6070FF" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -80,7 +83,7 @@
     </div>
   </section>
 
-  <section class="project">
+  <section class="project" id="portfolio">
     <div class="project-card">
       <div class="project-image">
         <img src="images/first_pro.png" alt="project background image" />
@@ -113,9 +116,9 @@
           <li id="lang">css</li>
           <li id="lang">javascript</li>
         </ul>
-        <div class="btn-project">
+        <button class="btn-project">
           <a href="#" class="btn">See Project</a>
-        </div>
+      </button>
       </div>
     </div>
 
@@ -148,9 +151,9 @@
           <li id="lang">css</li>
           <li id="lang">javascript</li>
         </ul>
-        <div class="btn-project">
+        <button class="btn-project">
           <a href="#" class="btn">See Project</a>
-        </div>
+        </button>
       </div>
       <div class="project-image">
         <img src="images/Snapshoot Portfolio (2).png" alt="image" />
@@ -189,16 +192,13 @@
           <li id="lang">css</li>
           <li id="lang">javascript</li>
         </ul>
-        <div class="btn-project">
+        <button class="btn-project">
           <a href="#" class="btn">See Project</a>
-        </div>
+      </button>
       </div>
     </div>
 
     <div class="project-card">
-      <!-- <div class="project-image">
-        <img src="images/Snapshoot Portfolio 3.png" alt="image" />
-      </div> -->
       <div class="project-details">
         <div class="project-title">
           <h3 id="title">Multi-Post Stories</h3>
@@ -227,9 +227,9 @@
           <li id="lang">css</li>
           <li id="lang">javascript</li>
         </ul>
-        <div class="btn-project">
+        <button class="btn-project">
           <a href="#" class="btn">See Project</a>
-        </div>
+        </button>
       </div>
       <div class="project-image">
         <img src="images/Snapshoot Portfolio 3.png" alt="image" />
@@ -238,7 +238,7 @@
   </section>
 
 
-  <section class="about">
+  <section class="about" id="About">
     <div class="about-cont">
       <div class="about-my">
       <div class="title-about">
@@ -251,7 +251,8 @@
           don’t hestiate to contact me.
         </p>
       </div>
-      <diV class="connect"><a href="#projects" class="main-link">LET'S CONNECT</a>
+      <diV class="connect">
+        <a href="#projects" class="main-link">LET'S CONNECT</a>
       </diV>
       <ul class="social-icons">
         <li>
@@ -327,7 +328,7 @@
 
   <!-- Contact Me-->
 
-  <section class="contact">
+  <section class="contact" id="contact">
     <div class="container">
         <h2>
           Contact Me
@@ -336,14 +337,16 @@
       If you have an application you are interested in developing, a feature that you need built or a project that needs
       coding. I’d love to help with it
     </p>
-    <form action="https://formspree.io/f/moqbpljb" method="post">
+    <form action="https://formspree.io/f/moqbpljb" method="post" class="my-form">
       <input  required name="name" maxlength="30" type="text" placeholder="Yeremias"><br/>
-      <input required name="email" type="email" placeholder="natajayanj14@gmail.com"><br/>
+      <input  class="email" required name="email" type="email" placeholder="natajayanj14@gmail.com"><br/>
+      <small class="warning"></small>
       <textarea required maxlength="500" id="text" placeholder="Write your message here" cols="30" rows="10"></textarea><br/>
       <input name="submit" type="submit" class="button-contact" value="Get in Touch" >
     </form>
     </div>
   </section>
+  <script src="script/main.js"></script>
 </body>
 
 </html>
