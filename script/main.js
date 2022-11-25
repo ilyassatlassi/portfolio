@@ -20,3 +20,13 @@ hamburger.addEventListener('click', activeToggle);
 document.querySelectorAll('.links').forEach((n) => n.addEventListener('click', activeToggle));
 
 cancel.addEventListener('click', activeToggle);
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  if (email.value === email.value.toLowerCase()) {
+    form.submit();
+  } else {
+    Warning.innerHTML = 'Please the content of the email field has to be in lower case.';
+  }
+});
