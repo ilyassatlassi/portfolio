@@ -678,10 +678,10 @@ hr {
   width: 12px;
   height: 12px;
   right: 10%;
-  top: 5%;
+  top: 4%;
   position: absolute;
-  background-image: url(images/Icon.png);
-  background-color: #6070ff;
+  background-image: url(images/pop-cancel.png);
+  background-color: #fff;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
