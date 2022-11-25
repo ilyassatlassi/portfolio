@@ -73,7 +73,38 @@ const arrays = [
 //   detail.appendChild(pop_body)
 //   main.appendChild(detail)
 // })
-
+arrays.map((array, index) => project.innerHTML += `
+<div class="project-card" rev-${index}>
+<div class="project-image">
+  <img src="${array.image}" alt="project background image" />
+</div>
+<div class="project-details">
+  <div class="project-title">
+    <h3 id="title">${array.name}</h3>
+  </div>
+  <div class="project-info">
+    <div class="name">
+      <p>canopy</p>
+    </div>
+    <img class="dot" src="images/dot.png" alt="dot" />
+    <div class="domaine">
+      <p>Back End Dev</p>
+    </div>
+    <img class="dot" src="images/dot.png" alt="dot" />
+    <div class="year">
+      <p>2015</p>
+    </div>
+  </div>
+  <div class="description">
+    <p>
+      A daily selection of privately personalized reads; no accounts or
+      sign-ups required.
+    </p>
+  </div>
+  <ul class="tools">
+  ${array.technologies.map((lang) => `<li id="lang">${lang}</li>`).join('')}
+  </ul>
+  <div class="btn-project">
 
 const moreDeatails = (index) => {
 
