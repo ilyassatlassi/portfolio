@@ -36,4 +36,27 @@ form.addEventListener('submit', (e) => {
   }
 });
 
+function getData() {
+  const formData = {
+    nameForm: nameForm.value,
+    textarea: textarea.value,
+    email: email.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+function persistData() {
+  if (!localStorage.getItem('formData')) {
+    getData();
+  } else {
+    const fetchData = JSON.parse(localStorage.getItem('formData'));
+    nameForm.setAttribute('value', fetchData.nameForm);
+    email.setAttribute('value', fetchData.email);
+    textarea.textContent = fetchData.texarea;
+  }
+}
+
+window.onload = () => {
+  persistData();
+};
 
