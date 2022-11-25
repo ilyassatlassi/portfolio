@@ -3,10 +3,14 @@ const hamburger = document.querySelector('.toolbar');
 const cancel = document.querySelector('.delete');
 const links = document.querySelector('.links');
 const menu = document.querySelector('.menu-items');
-const button = document.querySelector('.btn-project');
 const project = document.querySelector('.project');
+const detail = document.querySelector('.detail');
+const image = document.querySelector('.image-pop');
+const title = document.querySelector('.title-pop');
+const live = document.getElementById('live');
+const source = document.getElementById('source');
+const body = document.querySelector('.body');
 
-console.log(button)
 const activeToggle = () => {
   menu.classList.toggle('active');
   links.classList.toggle('active');
@@ -23,7 +27,6 @@ cancel.addEventListener('click', activeToggle);
 
 const arrays = [
   {
-    id: 0,
     name: 'Tonic',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required',
@@ -33,7 +36,6 @@ const arrays = [
     linkToSource: 'https://github.com/ilyassatlassi/portfolio',
   },
   {
-    id: 1,
     name: 'Multi-Post Stories',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required',
@@ -43,7 +45,6 @@ const arrays = [
     linkToSource: 'https://github.com/ilyassatlassi/portfolio',
   },
   {
-    id: 2,
     name: 'Tonic',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required',
@@ -53,7 +54,6 @@ const arrays = [
     linkToSource: 'https://github.com/ilyassatlassi/portfolio',
   },
   {
-    id: 3,
     name: 'Multi-Post Stories',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required',
@@ -64,17 +64,9 @@ const arrays = [
   },
 ];
 
-// const detail = document.createElement('div');
-// detail.className = 'detail';
-// const pop_body = document.createElement('div');
-// pop_body.className = 'pop_body';
-
-// button.addEventListener('click', ()=> {
-//   detail.appendChild(pop_body)
-//   main.appendChild(detail)
-// })
+// eslint-disable-next-line no-return-assign
 arrays.map((array, index) => project.innerHTML += `
-<div class="project-card" rev-${index}>
+<div class="project-card rev-${index}">
 <div class="project-image">
   <img src="${array.image}" alt="project background image" />
 </div>
@@ -105,8 +97,25 @@ arrays.map((array, index) => project.innerHTML += `
   ${array.technologies.map((lang) => `<li id="lang">${lang}</li>`).join('')}
   </ul>
   <div class="btn-project">
+    <a href="javascript:moreDetails(${index})" class="btn">See Project</a>
+</div>
+</div>
+</div>
+`);
 
-const moreDeatails = (index) => {
+const moreDetails = (index) => {
+  title.innerHTML = arrays[index].name;
+  image.src = arrays[index].image;
+  live.href = arrays[index].linkToLiveVersion;
+  source.href = arrays[index].linkToSourhttps;
+  detail.style.display = 'block';
+  body.style.overflow = 'hidden';
+};
 
-}
+const closeDetails = () => {
+  detail.style.display = 'none';
+  body.style.overflow = 'auto';
+};
 
+moreDetails();
+closeDetails();

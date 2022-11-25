@@ -653,7 +653,7 @@ hr {
 }
 
 .detail {
-  /* display: none; */
+  display: none;
   position: fixed;
   z-index: 100;
   left: 0;
@@ -672,4 +672,69 @@ hr {
   padding: 0 16px;
   border-radius: 16px;
   overflow: auto;
+}
+
+.delete-popup {
+  width: 12px;
+  height: 12px;
+  right: 10%;
+  top: 5%;
+  position: absolute;
+  background-image: url(images/Icon.png);
+  background-color: #6070ff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+}
+
+.button-container {
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+.modal-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+.modal-btn {
+  align-items: center;
+}
+
+.btn-popup {
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  height: 48px;
+  outline: none;
+  background-color: white;
+  color: #396df2;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  cursor: pointer;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.modalBtn {
+  display: flex;
+  align-items: center;
+  height: 24px !important;
+  gap: 5px;
+  justify-content: center;
+}
+
+.link-popup {
+  color: #396df2;
+}
+
+.description-pop {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
 }
