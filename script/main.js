@@ -4,7 +4,7 @@ const cancel = document.querySelector('.delete');
 const links = document.querySelector('.links');
 const menu = document.querySelector('.menu-items');
 const button = document.querySelector('.btn-project');
-const main = document.querySelector('.project');
+const project = document.querySelector('.project');
 
 console.log(button)
 const activeToggle = () => {
@@ -64,18 +64,18 @@ const arrays = [
   },
 ];
 
-const detail = document.createElement('div');
-detail.className = 'detail';
-const pop_body = document.createElement('div');
-pop_body.className = 'pop_body';
+// const detail = document.createElement('div');
+// detail.className = 'detail';
+// const pop_body = document.createElement('div');
+// pop_body.className = 'pop_body';
 
-button.addEventListener('click', ()=> {
-  detail.appendChild(pop_body)
-  main.appendChild(detail)
-})
+// button.addEventListener('click', ()=> {
+//   detail.appendChild(pop_body)
+//   main.appendChild(detail)
+// })
 
-arrays.map((array, index) => pop_body.innerHTML = `<div class="card  rev-${index}">
-  <div class="project-title">
-        <h3 id="title">${array.name}</h3>
-      </div>`)
+
+const moreDeatails = (index) => {
+
+}
 
