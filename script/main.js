@@ -24,18 +24,7 @@ document.querySelectorAll('.links').forEach((n) => n.addEventListener('click', a
 
 cancel.addEventListener('click', activeToggle);
 
-
-// form
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-  if (email.value !== email.value.toLowerCase()) {
-    Warning.innerHTML = 'Please the content of the email should be in lower case.';
-  } else {
-    Warning.innerHTML = '';
-    form.submit();
-  }
-});
-
+// check local storage
 function getData() {
   const formData = {
     nameForm: nameForm.value,
@@ -60,3 +49,13 @@ window.onload = () => {
   persistData();
 };
 
+// form
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  if (email.value !== email.value.toLowerCase()) {
+    Warning.innerHTML = 'Please the content of the email should be in lower case.';
+  } else {
+    Warning.innerHTML = '';
+    form.submit();
+  }
+});
