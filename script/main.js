@@ -8,6 +8,8 @@ const menu = document.querySelector('.menu-items');
 const email = document.querySelector('.email');
 const form = document.querySelector('.my-form');
 const Warning = document.querySelector('.warning');
+const textarea = document.querySelector('.texarea');
+const nameForm = document.querySelector('.name-form');
 // const valid = document.querySelector('.button-contact');
 
 const activeToggle = () => {
@@ -22,6 +24,7 @@ document.querySelectorAll('.links').forEach((n) => n.addEventListener('click', a
 
 cancel.addEventListener('click', activeToggle);
 
+
 // form
 form.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -32,3 +35,5 @@ form.addEventListener('submit', (e) => {
     form.submit();
   }
 });
+
+
