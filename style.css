@@ -673,3 +673,7 @@ hr {
   border-radius: 16px;
   overflow: auto;
 }
+
+.warning {
+  color: red;
+}
