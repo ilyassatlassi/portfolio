@@ -65,5 +65,6 @@ const arrays = [
     linkToLiveVersion: 'https://ilyassatlassi.github.io/portfolio/',
     linkToSourhttps: 'https://github.com/ilyassatlassi/portfolio',
   },
+];
 
 
