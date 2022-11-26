@@ -597,6 +597,26 @@ hr {
     color: #fff;
     transition: all 0.6s ease-out;
   }
+
+  .des {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .description_pop {
+    font-size: 15px;
+    color: #344563;
+    line-height: normal;
+    margin-bottom: 50px;
+    width: 60%;
+  }
+
+  .link-pop {
+    display: flex;
+    gap: 10px;
+  }
 }
 
 @media (max-width: 768px) {
